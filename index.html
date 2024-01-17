@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- SEO Tags  -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website that is created by using HTML and a little bit CSS">
+    <meta name="author" content="Muhammad Ahmad">
+    <meta name="keywords" content="HTML , Web Development">
+    <meta name="robots" , content="index , follow">
+
+    <!-- This is the title of the web-page -->
+    <title>HTML Project </title>
+    <!-- Linking Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Linking External CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Linking Internal CSS -->
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        form div {
+            padding: 5px 0px;
+        }
+    </style>
+</head>
+<!-- Body Section Start's Here -->
+
+<body>
+    <!-- Header Section Start's Here -->
+    <header>
+        <figure>
+            <img style="border-radius: 40%;" src="./Images/Ahmad_Blue_Background.jpg" alt="Owner's Image" height="250">
+        </figure>
+        <!-- Navigation Section Start's Here -->
+        <nav>
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Header Section End's Here -->
+    <!-- Main Section Start's Here -->
+    <main id="intro">
+        <h1>Ahmad Naeem</h1>
+        <p>Hello, I'm Muhammad Ahmad, a passionate MERN stack web developer based in Lahore. I hold a comprehensive
+            understanding of the MERN (MongoDB, Express.js, React, Node.js) technology stack, having successfully
+            completed a specialized course at <abbr title="University of Education and Technology">UET</abbr> Lahore. In
+            addition to my formal education, I've dedicated time to
+            self-learning through various online resources, including YouTube, to continually enhance my skills in web
+            development.
+        </p>
+        <p>
+            Currently pursuing a Bachelor's degree in Computer Science (BSCS), I am deeply committed to staying abreast
+            of the latest trends and advancements in the dynamic field of technology. With a strong foundation in MERN
+            stack development and an ongoing academic journey, I am excited about the possibilities to contribute
+            innovative solutions to real-world challenges. My goal is to leverage my knowledge and skills to create
+            robust and user-friendly web applications that make a positive impact.</p>
+    </main>
+    <!-- Main Section End's Here -->
+    <section id="skills">
+        <h2>Skills :-</h2>
+        <ul>
+            <li>HTML : <progress value="100" max="100"></progress></li>
+            <li>CSS : <progress value="80" max="100"></progress></li>
+            <li>JavaScript : <progress value="70" max="100"></progress></li>
+            <li>ReactJs : <progress value="70" max="100"></progress></li>
+            <li>Bootstrap : <progress value="90" max="100"></progress></li>
+            <li>JQuery : <progress value="90" max="100"></progress></li>
+            <li>NodeJs : <progress value="70" max="100"></progress></li>
+            <li>ExpressJs : <progress value="70" max="100"></progress></li>
+            <li>MongoDB : <progress value="80" max="100"></progress></li>
+        </ul>
+    </section>
+    <!-- Education Section Start's Here -->
+    <section id="Education">
+        <h2>My Education :-</h2>
+        <p>
+            <strong>Matric | Science Education</strong>
+            <br>
+            <strong>Dar-e-Arqam Schools</strong>
+            <br>
+            <br>
+            <em>
+                I completed my secondary education at Dar-e-Arqam School, Salamat Pura Campus. Recognized for my
+                dedication
+                and intelligence, I earned the appreciation of all my teachers. I achieved a commendable score of 885 in
+                my
+                board exams, reflecting my commitment to academic excellence.</em>
+
+        </p>
+        <p>
+            <strong>Intermediate | ICS</strong>
+            <br>
+            <strong>Apex College</strong>
+            <br>
+            <br>
+            <em>
+                I successfully completed my intermediate education at Apex College, Daroghawala Campus. Renowned for my
+                diligence and intellectual aptitude, I garnered the appreciation of all my instructors. I achieved an
+                outstanding score of 850 in my board exams, underscoring my commitment to academic achievement.</em>
+
+        </p>
+        <p>
+            <strong>Bachelor of Science in Computer Science (BSCS)</strong>
+            <br>
+            <strong>Aspire College (Affiliated with Gomal University KPK) </strong>
+            <br>
+            <br>
+            <em>
+                I am currently pursuing my Bachelor's degree in Computer Science (BSCS) at Aspire College, which is
+                affiliated with Gomal University, KPK. Presently in my 3rd semester, I am known for my diligent work
+                ethic and a strong passion for continuous learning</em>
+
+        </p>
+        <p>
+            <strong>MERN Stack Course</strong>
+            <br>
+            <strong>University of Education and Technology Lahore </strong>
+            <br>
+            <br>
+            <em>
+                I have successfully completed a 3-month MERN Stack Web Development Course at the University of Education
+                and Technology, Lahore, enhancing my proficiency in cutting-edge web development technologies.</em>
+
+        </p>
+
+    </section>
+
+    <!-- Education Section End's Here -->
+
+    <!-- Contact Section Start's Here -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="Name">Your Name*</label>
+                <input type="text" name="Name" id="Name" required placeholder="Enter Your Name">
+            </div>
+            <div>
+                <label for="Email">Email Address*</label>
+                <input type="email" name="Email" id="Email" required placeholder="Enter Your Email Address">
+            </div>
+            <div>
+                <label for="Tel">Mobile Number</label>
+                <input type="tel" name="Tel" id="Tel" placeholder="Enter Your Mobile Number">
+            </div>
+            <div>
+                <label for="Age">Your Age</label>
+                <input type="date" name="Age" id="Age">
+            </div>
+            <div>
+                <label for="Time">Appoitment Time</label>
+                <input type="time" name="Time" id="Time">
+            </div>
+            <div>
+                <label for="profession">Your Profession</label>
+                <select name="profession" id="profession">
+                    <option value="WD">Web Developer</option>
+                    <option value="BM">Business Man </option>
+                    <option value="HR">Human Resource </option>
+                    <option value="other">Other</option>
+
+                </select>
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Other
+            </div>
+            <div>
+                <label for="Feedback">Feedback</label>
+                <textarea name="Feedback" id="Feedback" cols="30" rows="10"
+                    placeholder="Enter Your Feedback Here"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Reset Form">
+            </div>
+            <br>
+            <div>
+                <button><a href="tel:+923221008034">Call ME</a></button>
+                <button><a href="mailto:ahmadnaeem6277@gmail.com">Email Me</a></button>
+            </div>
+        </form>
+    </section>
+    <!-- Contact Section End's Here -->
+    <!-- Footer Section Start's Here -->
+    <footer style="background-color: black; color: white; text-align: center; width: 100%;">
+        &copy; 2024 Muhammad Ahmad All Right Reserved !
+    </footer>
+    <!-- Footer Section End's Here -->
+    <!-- Liking External JS -->
+    <script src="./JS/script.js"></script>
+    <!-- Linking Internal JS -->
+    <script></script>
+</body>
+
+</html>
